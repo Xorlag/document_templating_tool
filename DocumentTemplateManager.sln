@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentTemplateManager.CLI", "DocumentTemplateManager.CLI\DocumentTemplateManager.CLI.csproj", "{B5D27154-2B73-4C43-94EE-08F86DE077F1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentTemplateManager.Core", "DocumentTemplateManager.Core\DocumentTemplateManager.Core.csproj", "{0A2C29DE-423E-4EDC-BB36-B587E0BF1839}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentTemplateManager.MicrosoftOfficeWordAPI", "DocumentTemplateManager.MicrosoftOfficeWordAPI\DocumentTemplateManager.MicrosoftOfficeWordAPI.csproj", "{C350DD62-AA6E-4120-A8DD-FE141EEED2F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentTemplateManager.DesktopClient", "DocumentTemplateManager.DesktopClient\DocumentTemplateManager.DesktopClient.csproj", "{98967361-E7DB-43FA-9669-6D68C51609EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5D27154-2B73-4C43-94EE-08F86DE077F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5D27154-2B73-4C43-94EE-08F86DE077F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5D27154-2B73-4C43-94EE-08F86DE077F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5D27154-2B73-4C43-94EE-08F86DE077F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A2C29DE-423E-4EDC-BB36-B587E0BF1839}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A2C29DE-423E-4EDC-BB36-B587E0BF1839}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A2C29DE-423E-4EDC-BB36-B587E0BF1839}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A2C29DE-423E-4EDC-BB36-B587E0BF1839}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C350DD62-AA6E-4120-A8DD-FE141EEED2F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C350DD62-AA6E-4120-A8DD-FE141EEED2F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C350DD62-AA6E-4120-A8DD-FE141EEED2F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C350DD62-AA6E-4120-A8DD-FE141EEED2F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98967361-E7DB-43FA-9669-6D68C51609EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98967361-E7DB-43FA-9669-6D68C51609EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98967361-E7DB-43FA-9669-6D68C51609EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98967361-E7DB-43FA-9669-6D68C51609EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2E8DA14-A810-4D7B-B4AF-2C67FEE9DB2A}
+	EndGlobalSection
+EndGlobal
