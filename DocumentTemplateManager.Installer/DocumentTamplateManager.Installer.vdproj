@@ -3,7 +3,7 @@
 "VSVersion" = "3:800"
 "ProjectType" = "8:{978C614F-708E-4E1A-B201-565925725DBA}"
 "IsWebType" = "8:FALSE"
-"ProjectName" = "8:DocumentTamplateManager.Installer"
+"ProjectName" = "8:DocumentTemplateManager.Installer"
 "LanguageId" = "3:1033"
 "CodePage" = "3:1252"
 "UILanguageId" = "3:1033"
@@ -33,7 +33,7 @@
         "DisplayName" = "8:Debug"
         "IsDebugOnly" = "11:TRUE"
         "IsReleaseOnly" = "11:FALSE"
-        "OutputFilename" = "8:Debug\\DocumentTamplateManager.Installer.msi"
+        "OutputFilename" = "8:Debug\\DocumentTemplateManager.Installer.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -43,6 +43,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
+            }
         }
         "Release"
         {
@@ -59,6 +75,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -165,9 +189,9 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:DocumentTamplateManager.Installer"
+        "ProductName" = "8:DocumentTemplateManager"
         "ProductCode" = "8:{24B98A43-63DD-4F15-B397-C64BB40A7FFE}"
-        "PackageCode" = "8:{B8C77009-D785-47AA-A710-DCBDC6BE11DB}"
+        "PackageCode" = "8:{1421DFB4-4051-4F36-BF8A-295766F3CD6B}"
         "UpgradeCode" = "8:{4F47CE66-259C-4698-9A03-20B86124E507}"
         "AspNetVersion" = "8:"
         "RestartWWWService" = "11:FALSE"
@@ -178,7 +202,7 @@
         "Manufacturer" = "8:Default"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
-        "Title" = "8:DocumentTamplateManager.Installer"
+        "Title" = "8:DocumentTemplateManager.Installer"
         "Subject" = "8:"
         "ARPCONTACT" = "8:"
         "Keywords" = "8:"

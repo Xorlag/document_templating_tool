@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentTemplateManager.Mic
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentTemplateManager.DesktopClient", "DocumentTemplateManager.DesktopClient\DocumentTemplateManager.DesktopClient.csproj", "{98967361-E7DB-43FA-9669-6D68C51609EA}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "DocumentTamplateManager.Installer", "DocumentTamplateManager.Installer\DocumentTamplateManager.Installer.vdproj", "{CF1CA4CF-4EAB-4F34-9DEB-94F4DF64B3A3}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "DocumentTemplateManager.Installer", "DocumentTemplateManager.Installer\DocumentTamplateManager.Installer.vdproj", "{D43D145B-13BE-486C-BC9D-4C137FB52C0B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,9 +35,10 @@ Global
 		{98967361-E7DB-43FA-9669-6D68C51609EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98967361-E7DB-43FA-9669-6D68C51609EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98967361-E7DB-43FA-9669-6D68C51609EA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CF1CA4CF-4EAB-4F34-9DEB-94F4DF64B3A3}.Debug|Any CPU.ActiveCfg = Debug
-		{CF1CA4CF-4EAB-4F34-9DEB-94F4DF64B3A3}.Debug|Any CPU.Build.0 = Debug
-		{CF1CA4CF-4EAB-4F34-9DEB-94F4DF64B3A3}.Release|Any CPU.ActiveCfg = Release
+		{D43D145B-13BE-486C-BC9D-4C137FB52C0B}.Debug|Any CPU.ActiveCfg = Debug
+		{D43D145B-13BE-486C-BC9D-4C137FB52C0B}.Debug|Any CPU.Build.0 = Debug
+		{D43D145B-13BE-486C-BC9D-4C137FB52C0B}.Release|Any CPU.ActiveCfg = Release
+		{D43D145B-13BE-486C-BC9D-4C137FB52C0B}.Release|Any CPU.Build.0 = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

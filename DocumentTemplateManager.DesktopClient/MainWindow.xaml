@@ -63,10 +63,6 @@
         </Grid.RowDefinitions>
         <ScrollViewer Grid.Row="0" >
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="Auto"/>
-                </Grid.RowDefinitions>
                 <TabControl x:Name="FileTemplateTabControl"
                             Grid.Row="0"
                             Background="#b6d1d1"
@@ -76,17 +72,17 @@
                             ContentTemplate="{StaticResource templateFileContentTemplate}"
                             TabStripPlacement="Top"
                             />
-                <Grid Grid.Row="1" Margin="0,0,0,5">
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="*"/>
-                    </Grid.ColumnDefinitions>
-                    <Button Grid.Column="0" Command="{Binding GenerateFilesCommand}" Margin="5,10,5,0" Background="#ccb887" Content="Generate Output Files"/>
-                    <Button Grid.Column="1" Command="{Binding ExportConfigFileCommand}" Margin="5,10,5,0" Background="#77aec9" Content="Export Config File"/>
-                    <Button Grid.Column="2" Command="{Binding ImportConfigFileCommand}" Margin="5,10,5,0" Background="#77c99c" Content="Import Config File"/>
-                </Grid>
             </Grid>
         </ScrollViewer>
+        <Grid Grid.Row="1" Margin="0,0,0,5">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" Command="{Binding GenerateFilesCommand}" Margin="5,10,5,0" Background="#ccb887" Content="Generate Output Files"/>
+            <Button Grid.Column="1" Command="{Binding ExportConfigFileCommand}" Margin="5,10,5,0" Background="#77aec9" Content="Export Config File"/>
+            <Button Grid.Column="2" Command="{Binding ImportConfigFileCommand}" Margin="5,10,5,0" Background="#77c99c" Content="Import Config File"/>
+        </Grid>
     </Grid>
 </Window>
