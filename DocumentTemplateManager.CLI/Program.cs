@@ -1,16 +1,24 @@
-﻿using DocumentTemplateManager.Core;
-using System;
+﻿using System;
+using DocumentTemplateManager.CLI.UserInteractors;
+using DocumentTemplateManager.Core;
 
 namespace MyApp
 {
     public class Program
     {
-        private const string CONFIG_FILE_URI = "InputData.json";
         static void Main(string[] args)
         {
-            var directoryName = $@"Result_{DateTime.Now.ToString("ddMMyyyy_hhmmss")}";
-            var service = new TemplateInstantiationService();
-            service.GenerateTemplate(CONFIG_FILE_URI, directoryName);
+            var mainInteractor = new MainUserInteractor(interactorLevel: 0, entityTitle:"application config");
+            var templateConfigListInteraction = mainInteractor.Interact();
+            if (templateConfigListInteraction.IsSuccess)
+            {
+                var documentTemplatingService = new TemplateInstantiationService();
+                documentTemplatingService.GenerateTemplate(templateConfigListInteraction.Result);
+            }
+            else
+            {
+                Console.WriteLine(templateConfigListInteraction.ErrorMessage);
+            }
         }
     }
 }
