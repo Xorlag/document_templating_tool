@@ -28,7 +28,15 @@ namespace DocumentTemplateManager.CLI.UserInteractors
                 case UserInputOptions.INTERACTIVE_INPUT_OPTION:
                     {
                         var nextLevelInteractor = new TemplateConfigInteractor(_interactionLevel + 1, entityTitle: "template configuration");
-                        return nextLevelInteractor.InteractMany();
+                        var userInteraction = nextLevelInteractor.InteractMany();
+                        if (userInteraction.IsSuccess)
+                        {
+                            return userInteraction;
+                        }
+                        else
+                        {
+                            return UserCancelledInput();
+                        }
                     }
                 case UserInputOptions.EXIT_INPUT_OPTION:
                 default:
